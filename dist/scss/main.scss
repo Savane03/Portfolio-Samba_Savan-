@@ -1,0 +1,77 @@
+@import './variables';
+
+@font-face{
+    font-family: $title-font;
+    src: url(/dist/assets/fonts/Motter-Tektura.woff)  ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $blue;
+}
+.white{background-color: white;
+    height: 100px;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+video{
+    position: relative;
+    top:-70px;
+   width:80%;
+   max-width: 300px;
+   border-bottom-left-radius:50px ;
+   border-bottom-right-radius:50px ;
+ } 
+
+    
+
+
+.presentation {
+    margin-top: -50px;
+ text-align: center;
+    h1{font-family: $title-font ;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 20px;
+        }
+    p{font-family: $main-font ;
+      font-weight: 100;
+      font-size: larger;
+      color: rgb(0, 0, 0);
+      }
+    
+}
+
+.language {
+    
+    img{width: 30px;
+    }
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .works , .about , .contacts{
+        img{
+            max-width: 100px;
+            height: 150px;
+            margin-top: -50px;
+        }
+    }
+    
+}
+.menu-text{
+    display: flex;
+}
