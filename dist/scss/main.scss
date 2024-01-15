@@ -10,14 +10,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: $blue;
-}
+
 .white{background-color: white;
     height: 100px;
     width: 100%;
 }
 header{
+    background-color: $blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,10 +36,11 @@ video{
 
 
 .presentation {
+    background-color: $blue;
     margin-top: -50px;
  text-align: center;
     h1{font-family: $title-font ;
-        color: white;
+        color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 40px;
         margin-bottom: 20px;
@@ -48,7 +48,7 @@ video{
     p{font-family: $main-font ;
       font-weight: 100;
       font-size: larger;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       }
     
 }
@@ -64,14 +64,97 @@ video{
     flex-direction: row;
     justify-content: space-between;
     .works , .about , .contacts{
+        font-family: $main-font;
+        font-size: 20px;
+        position: relative;
         img{
             max-width: 100px;
             height: 150px;
             margin-top: -50px;
         }
     }
+    .works p{
+        color: white;
+            position: absolute;
+            top: 6px;
+            left: 15px;
+    }
+    .about p{
+        color: white;
+            position: absolute;
+            top: 6px;
+            left: 15px;
+    }
+    .contacts p{
+        color: white;
+            position: absolute;
+            top: 6px;
+            left: 15px;
+    }
+
     
 }
-.menu-text{
+.project{
+    
+    padding: 50px;
+    background-color: #17367B;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    h1{
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+        font-family: $main-font;
+        
+    }
+    
 }
+
+.site{
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 20px;
+    p{
+        font-size: 19px;
+        color: white;
+        font-family: $main-font;
+        text-align: center;
+    }
+    img{
+        border-radius: 20px;
+        width: 70%;
+        max-width: 260px;
+        min-width: 186px;
+        margin-bottom: 20px;
+
+    }
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    left: 10px;
+    top: 300px;
+    
+}
+.side ul{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: rgb(250, 234, 12);
+    list-style: none;
+    li img{
+        max-width: 20px;
+    }
+
+}
+
+
+    

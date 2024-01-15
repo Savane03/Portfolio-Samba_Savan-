@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #1E449A;
-}
-
 .white {
   background-color: white;
   height: 100px;
@@ -19,6 +15,7 @@ body {
 }
 
 header {
+  background-color: #1E449A;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,12 +31,13 @@ video {
 }
 
 .presentation {
+  background-color: #1E449A;
   margin-top: -50px;
   text-align: center;
 }
 .presentation h1 {
   font-family: "Motter-tektura";
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 20px;
@@ -48,7 +46,7 @@ video {
   font-family: "Teko", sans-serif;
   font-weight: 100;
   font-size: larger;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .language img {
@@ -60,12 +58,85 @@ video {
   flex-direction: row;
   justify-content: space-between;
 }
+.menu .works, .menu .about, .menu .contacts {
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  position: relative;
+}
 .menu .works img, .menu .about img, .menu .contacts img {
   max-width: 100px;
   height: 150px;
   margin-top: -50px;
 }
+.menu .works p {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 15px;
+}
+.menu .about p {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 15px;
+}
+.menu .contacts p {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 15px;
+}
 
-.menu-text {
+.project {
+  padding: 50px;
+  background-color: #17367B;
   display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.project h1 {
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+
+.site {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.site p {
+  font-size: 19px;
+  color: white;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+}
+.site img {
+  border-radius: 20px;
+  width: 70%;
+  max-width: 260px;
+  min-width: 186px;
+  margin-bottom: 20px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10px;
+  top: 300px;
+}
+
+.side ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  color: rgb(250, 234, 12);
+  list-style: none;
+}
+.side ul li img {
+  max-width: 20px;
 }/*# sourceMappingURL=main.css.map */
