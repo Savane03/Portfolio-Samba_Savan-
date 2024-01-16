@@ -8,6 +8,16 @@
   box-sizing: border-box;
 }
 
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+  text-decoration: none;
+}
+
 .white {
   background-color: white;
   height: 100px;
@@ -113,11 +123,13 @@ video {
   font-family: "Teko", sans-serif;
   text-align: center;
 }
-.site img {
+.site a {
+  text-align: center;
+}
+.site a img {
   border-radius: 20px;
   width: 70%;
-  max-width: 260px;
-  min-width: 186px;
+  max-width: 290px;
   margin-bottom: 20px;
 }
 
@@ -125,14 +137,13 @@ video {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 10px;
+  left: 0px;
   top: 300px;
 }
 
 .side ul {
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-family: "Pixelify Sans", sans-serif;
   color: rgb(250, 234, 12);
   list-style: none;
