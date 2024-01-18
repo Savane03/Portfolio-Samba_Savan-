@@ -199,4 +199,59 @@ video {
   font-family: "Teko", sans-serif;
   font-size: 19px;
   width: 50%;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+#contacts h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Teko", sans-serif;
+  color: white;
+  text-align: center;
+  width: 70%;
+}
+#contacts p {
+  color: white;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  color: white;
+  font-family: "Teko", sans-serif;
+}
+form input {
+  font-family: "Teko", sans-serif;
+  font-weight: 200px;
+  color: #17367B;
+}
+form :-ms-input-placeholder {
+  color: black;
+}
+form textarea {
+  resize: none;
+  height: 300px;
+  font-family: "Teko", sans-serif;
+  font-weight: 200;
+  color: #17367B;
+}
+form button {
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  background-color: #19284B;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+form button:hover {
+  background-color: #1E449A;
 }/*# sourceMappingURL=main.css.map */

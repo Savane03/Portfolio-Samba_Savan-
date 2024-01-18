@@ -219,5 +219,63 @@ video{
     width: 50%;
 }
 
+#contacts{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    h1{
+        font-size: 20px;
+        margin-top:20px;
+        font-family: $main-font;
+        color: white;
+        text-align: center;
+        width: 70%;
+    }
+    p{
+        color: white;
+        text-align: center;
+        font-family: $main-font;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    label{color:white;
+        font-family: $main-font;
+    }
+    input{
+        font-family: $main-font;
+        font-weight: 200px;
+        color: #17367B;
+    }
+    :-ms-input-placeholder{
+        color: black;
+    }
+    textarea{
+        resize: none;
+        height: 300px;
+        font-family: $main-font;
+        font-weight: 200;
+        color: #17367B;
+    }
+  
+    button{
+        font-family: $main-font;
+        font-size: 20px;
+        background-color: #19284B;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        
+    }
+    button:hover{
+        background-color: $blue;
+    }
+ 
+    
+}
+
 
     
