@@ -4,7 +4,9 @@
     font-family: $title-font;
     src: url(/dist/assets/fonts/Motter-Tektura.woff)  ;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@ a:visited{
     width: 100%;
 }
 header{
-    background-color: $blue;
+    background-color:  #17367B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +46,7 @@ video{
 
 
 .presentation {
-    background-color: $blue;
+    background-color:  #17367B;
     margin-top: -50px;
  text-align: center;
     h1{font-family: $title-font ;
@@ -61,12 +63,7 @@ video{
     
 }
 
-.language {
-    
-    img{width: 30px;
-    }
-    
-}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -98,9 +95,17 @@ video{
             position: absolute;
             top: 6px;
             left: 15px;
-    }
+    } 
+}
+.works:hover p{
+    color: $blue;
+}
 
-    
+.about:hover p{
+    color: $blue;
+}
+.contacts:hover p{
+    color: $blue;
 }
 #project{
     
@@ -143,6 +148,11 @@ video{
         margin-bottom: 20px;
 
     }
+    a img:hover{
+     max-width: 293px;
+     transition: 1s;
+     opacity: 0.3s;
+    }
 }
 
 .side{
@@ -151,7 +161,7 @@ video{
     position: absolute;
     
     left: 0px;
-    top: 45%;
+    top: 30%;
     
 }
 .side ul{
@@ -163,7 +173,11 @@ video{
     color: rgb(250, 234, 12);
     list-style: none;
     li img{
-        max-width: 20px;
+        max-width: 50px;
+    }
+    li img:hover{
+        max-width: 55px;
+        transition: 0.3s;
     }
    
 }
@@ -208,7 +222,11 @@ video{
     img{
         
         max-height: 60px;
-    }   
+    }  
+    img:hover{
+        transition: 0.3s;
+        max-height: 70px;
+    } 
 }
 .passion{
     text-align: center;
@@ -224,6 +242,7 @@ video{
     flex-direction: column;
     align-items: center;
     background-color: black;
+    position: relative;
     h1{
         font-size: 20px;
         margin-top:20px;
