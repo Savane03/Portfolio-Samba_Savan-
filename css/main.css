@@ -68,6 +68,12 @@ video {
   flex-direction: row;
   justify-content: space-between;
 }
+header .menu {
+  position:fixed;
+  top: 15px;
+right: 33px;
+}
+
 .menu .works, .menu .about, .menu .contacts {
   font-family: "Teko", sans-serif;
   font-size: 20px;
@@ -398,8 +404,9 @@ footer p {
     font-size: 25px;
   }
   header .menu {
-    position: relative;
+    position: fixed;
     top: 55px;
+    left:63%
   }
   header .menu .works img {
     max-width: 128px;
