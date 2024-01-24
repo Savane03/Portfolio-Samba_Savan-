@@ -50,27 +50,28 @@ video {
   text-align: center;
 }
 .presentation h1 {
-  font-family: "Motter-tektura";
+  font-family: "Teko", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 64px;
   margin-bottom: 20px;
 }
 .presentation p {
+  font-size: 21px;
   font-family: "Teko", sans-serif;
-  font-weight: 100;
-  font-size: larger;
   color: rgb(255, 255, 255);
 }
 
 .menu {
   display: flex;
   flex-direction: row;
+  
   justify-content: space-between;
 }
 header .menu {
   position:fixed;
   top: 10px;
+  padding-left: 40px;
   
 }
 
@@ -123,6 +124,7 @@ header .menu {
   position: relative;
 }
 #project h1 {
+  font-size: 45px;
   margin-bottom: 30px;
   color: white;
   text-align: center;
@@ -136,7 +138,7 @@ header .menu {
   margin-bottom: 20px;
 }
 .site p {
-  font-size: 19px;
+  font-size: 21px;
   color: white;
   font-family: "Teko", sans-serif;
   text-align: center;
@@ -207,6 +209,9 @@ header .menu {
 }
 .text-about p {
   font-size: 19px;
+}
+.text-about h1 {
+  font-size: 45px;
 }
 .text-about strong:first-of-type {
   color: rgb(250, 234, 12);
@@ -406,7 +411,7 @@ footer p {
     top: 60px;
   }
   header .presentation h1 {
-    font-size: 50px;
+    font-size: 64px;
   }
   header .presentation p {
     font-size: 25px;
@@ -436,7 +441,7 @@ footer p {
     flex-direction: row;
   }
   #project .site p {
-    font-size: 19px;
+    font-size: 21px;
     color: white;
     font-family: "Teko", sans-serif;
     width: 300px;

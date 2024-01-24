@@ -53,7 +53,7 @@ video {
   font-family: "Teko", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 64px;
   margin-bottom: 20px;
 }
 .presentation p {
@@ -198,6 +198,9 @@ video {
   color: white;
   text-align: center;
   max-width: 60%;
+}
+.text-about h1 {
+  font-size: 45px;
 }
 .text-about p {
   font-size: 19px;
@@ -399,7 +402,7 @@ footer p {
     top: 60px;
   }
   header .presentation h1 {
-    font-size: 50px;
+    font-size: 64px;
   }
   header .presentation p {
     font-size: 25px;
