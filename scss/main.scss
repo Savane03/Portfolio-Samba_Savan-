@@ -59,6 +59,7 @@ video{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     .works , .about , .contacts{
         font-family: $main-font;
         font-size: 20px;
@@ -108,7 +109,7 @@ video{
         margin-bottom: 30px;
         color: white;
         text-align: center;
-        font-family: $main-font; 
+        font-family: $title-font; 
     } 
 }
 .site{ 
@@ -271,16 +272,26 @@ form{
         }  
 }
 .cv{
+    
     position: fixed;
     top: 200px;
     right: 30px;
         p{
+
             border: solid 1px white;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             font-family: $main-font;
             color: rgb(255, 255, 255);
             padding: 1px;
+        }
+        p:hover{
+            background-color: black;
+            border: none; 
+        }
+        p:active{
+            color: $blue;
+            
         }
 }
 footer{

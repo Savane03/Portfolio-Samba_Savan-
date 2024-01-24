@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Motter-tektura";
+  font-family: "Teko", sans-serif;
   src: url(/dist/assets/fonts/Motter-Tektura.woff);
 }
 html {
@@ -50,7 +50,7 @@ video {
   text-align: center;
 }
 .presentation h1 {
-  font-family: "Motter-tektura";
+  font-family: "Teko", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 40px;
@@ -301,6 +301,13 @@ form button:hover {
   color: rgb(255, 255, 255);
   padding: 1px;
 }
+.cv p:hover {
+  background-color: black;
+  border: none;
+}
+.cv p:active {
+  color: #1e439a;
+}
 
 footer {
   background-color: black;
@@ -362,7 +369,7 @@ footer p {
 .cv-title h1 {
   margin-top: 30px;
   color: #1e439a;
-  font-family: "Motter-tektura";
+  font-family: "Teko", sans-serif;
 }
 
 .title-cv h2 {

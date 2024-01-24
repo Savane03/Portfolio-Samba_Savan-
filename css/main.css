@@ -70,8 +70,8 @@ video {
 }
 header .menu {
   position:fixed;
-  top: 15px;
-right: 33px;
+  top: 10px;
+  
 }
 
 .menu .works, .menu .about, .menu .contacts {
@@ -306,6 +306,14 @@ form button:hover {
   font-family: "Teko", sans-serif;
   color: rgb(255, 255, 255);
   padding: 1px;
+}
+.cv p:hover{
+  background-color: black;
+  border: none;
+}
+.cv p:hover:active{
+  color: #1e439a;
+  
 }
 
 footer {
