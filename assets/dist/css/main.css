@@ -116,7 +116,8 @@ video {
   flex-direction: column;
   position: relative;
 }
-#project h1 {
+#project h2 {
+  font-size: 40px;
   margin-bottom: 30px;
   color: white;
   text-align: center;
@@ -199,8 +200,8 @@ video {
   text-align: center;
   max-width: 60%;
 }
-.text-about h1 {
-  font-size: 45px;
+.text-about h2 {
+  font-size: 40px;
 }
 .text-about p {
   font-size: 19px;
@@ -242,8 +243,8 @@ video {
   background-color: black;
   position: relative;
 }
-#contacts h1 {
-  font-size: 20px;
+#contacts h2 {
+  font-size: 40px;
   margin-top: 20px;
   font-family: "Teko", sans-serif;
   color: white;
@@ -291,6 +292,11 @@ form button:hover {
   background-color: #1e439a;
 }
 
+#cv-body{
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  font-family:"Teko", sans-serif;
+}
 .cv {
   position: fixed;
   top: 200px;
@@ -333,11 +339,7 @@ footer p {
   color: white;
 }
 
-#cv-page {
-  background-color: #ededed;
-  text-align: center;
-  font-family: "Teko", sans-serif;
-}
+
 
 .cv-header {
   background-color: rgb(237, 237, 237);
@@ -355,17 +357,22 @@ footer p {
 }
 .cv-header .contact-cv {
   margin-right: 40px;
+  color:  #1e439a;
+  font-family: 'Teko', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+
 }
 .cv-header p:hover {
   color: rgba(30, 67, 154, 0.6039215686);
 }
-.cv-header h1 {
+.cv-header .go-to-pf {
   font-weight: bold;
   color: #1e439a;
   font-family: "Teko", sans-serif;
   font-size: 20px;
 }
-.cv-header h1:hover {
+.cv-header .go-to-pf:hover {
   color: rgba(30, 67, 154, 0.6039215686);
 }
 
@@ -423,9 +430,7 @@ footer p {
   #project {
     align-items: center;
   }
-  #project h1 {
-    font-size: 50px;
-  }
+ 
   #project .site {
     display: flex;
     flex-direction: row;
@@ -471,8 +476,8 @@ footer p {
   #about-me .passion {
     font-size: 22px;
   }
-  #contacts h1 {
-    font-size: 30px;
+  #contacts h2 {
+    
     margin-top: 20px;
   }
   #contacts p {
