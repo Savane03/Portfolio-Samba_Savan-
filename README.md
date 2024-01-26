@@ -1,5 +1,5 @@
 My portfolioV1 :  https://savane03.github.io/Portfolio-Samba_Savan-/
 
-Presentation📝:[Presentation-Portfolio-SambaSavanè.pdf](https://github.com/Savane03/Portfolio-Samba_Savan-/files/14066038/Presentation-Portfolio-SambaSavane.pdf)
+Presentation📝:https://drive.google.com/file/d/1RG_Zv-0CPmIPsSIR5tiSfArQMp_6LLq5/view?usp=sharing
 
 
