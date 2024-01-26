@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Motter-tektura";
+  font-family: "Teko", sans-serif;
   src: url(/dist/assets/fonts/Motter-Tektura.woff);
 }
 html {
@@ -18,7 +18,7 @@ a {
 }
 
 a:visited {
-  color: yellow;
+  color: #ffff00;
   text-decoration: none;
 }
 
@@ -57,24 +57,17 @@ video {
   margin-bottom: 20px;
 }
 .presentation p {
-  font-size: 21px;
   font-family: "Teko", sans-serif;
+  font-weight: 100;
+  font-size: larger;
   color: rgb(255, 255, 255);
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  
   justify-content: space-between;
 }
-header .menu {
-  position:fixed;
-  top: 10px;
-  padding-left: 40px;
-  
-}
-
 .menu .works, .menu .about, .menu .contacts {
   font-family: "Teko", sans-serif;
   font-size: 20px;
@@ -124,7 +117,6 @@ header .menu {
   position: relative;
 }
 #project h1 {
-  font-size: 45px;
   margin-bottom: 30px;
   color: white;
   text-align: center;
@@ -138,7 +130,7 @@ header .menu {
   margin-bottom: 20px;
 }
 .site p {
-  font-size: 21px;
+  font-size: 19px;
   color: white;
   font-family: "Teko", sans-serif;
   text-align: center;
@@ -207,11 +199,11 @@ header .menu {
   text-align: center;
   max-width: 60%;
 }
-.text-about p {
-  font-size: 19px;
-}
 .text-about h1 {
   font-size: 45px;
+}
+.text-about p {
+  font-size: 19px;
 }
 .text-about strong:first-of-type {
   color: rgb(250, 234, 12);
@@ -312,13 +304,12 @@ form button:hover {
   color: rgb(255, 255, 255);
   padding: 1px;
 }
-.cv p:hover{
+.cv p:hover {
   background-color: black;
   border: none;
 }
-.cv p:hover:active{
+.cv p:active {
   color: #1e439a;
-  
 }
 
 footer {
@@ -343,7 +334,7 @@ footer p {
 }
 
 #cv-page {
-  background-color: rgb(237, 237, 237);
+  background-color: #ededed;
   text-align: center;
   font-family: "Teko", sans-serif;
 }
@@ -381,7 +372,7 @@ footer p {
 .cv-title h1 {
   margin-top: 30px;
   color: #1e439a;
-  font-family: "Motter-tektura";
+  font-family: "Teko", sans-serif;
 }
 
 .title-cv h2 {
@@ -417,9 +408,8 @@ footer p {
     font-size: 25px;
   }
   header .menu {
-    position: fixed;
+    position: relative;
     top: 55px;
-    left:63%
   }
   header .menu .works img {
     max-width: 128px;
@@ -441,7 +431,7 @@ footer p {
     flex-direction: row;
   }
   #project .site p {
-    font-size: 21px;
+    font-size: 19px;
     color: white;
     font-family: "Teko", sans-serif;
     width: 300px;
